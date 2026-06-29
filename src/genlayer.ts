@@ -6,8 +6,8 @@ import type { Address, TransactionStatus } from 'genlayer-js/types';
 // CONTRACT CONFIGURATION
 // ============================================================================
 
-// Default contract address (zero = demo mode)
-const DEFAULT_CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000';
+// Default contract address - DEPLOYED ON BRADBURY TESTNET
+const DEFAULT_CONTRACT_ADDRESS = '0x704A17d0f4C3CAd37354f3c94A7F6e230dcC9996';
 const STORAGE_KEY = 'taskverdict_contract_address';
 
 // Get contract address from localStorage or use default
